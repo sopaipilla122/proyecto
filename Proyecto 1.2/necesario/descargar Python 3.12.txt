@@ -1,0 +1,18 @@
+descargar Python 3.12
+java JDK 17 O 21 (versión mas reciente)
+instalar whisper:
+py -3.12 -m pip install openai-whisper
+instalar pytouch:
+py -3.12 -m pip install torch torchvision torchaudio
+
+
+FFMPEG
+Una vez extraído, ve a la carpeta C:\ffmpeg.
+Entra en la subcarpeta bin.
+Copia la ruta completa de esa carpeta. Debería ser: C:\ffmpeg\bin.
+Presiona la tecla de Windows, escribe Variables de entorno y selecciona "Editar las variables de entorno del sistema".
+Haz clic en "Variables de entorno...".
+En la lista de arriba ("Variables de usuario"), busca y selecciona Path.
+Haz clic en "Editar...".
+Haz clic en "Nuevo" y pega la ruta que copiaste: C:\ffmpeg\bin.
+Haz clic en "Aceptar" en todas las ventanas.
